@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeVault - Watch Hindi Sub & Dubbed Animes</title>
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons (Search, Play, etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<script src="script.js"></script>>
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">
+            <a href="#">Anime<span>Vault</span></a>
+        </div>
+
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="searchInput" placeholder="Search Anime (e.g. Naruto, Solo Leveling)...">
+        </div>
+
+        <nav class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#">Movies</a>
+            <a href="#">Popular</a>
+            <a href="#">Hindi Dubbed</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="main-container">
+
+        <!-- Featured / Hero Banner Section -->
+        <section class="hero-banner">
+            <div class="hero-content">
+                <span class="badge trending"><i class="fa-solid fa-fire"></i> Trending #1</span>
+                <h1>Solo Leveling Season 2</h1>
+                <p>Sung Jinwoo arrives as the shadow monarch to face the ultimate challenge in humanity's survival fight.</p>
+                <div class="hero-btns">
+                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-play"></i> Watch Now</a>
+                    <a href="#" class="btn btn-secondary"><i class="fa-solid fa-circle-info"></i> Details</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category / Quick Filters -->
+        <section class="filter-bar">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">Subtitled</button>
+            <button class="filter-btn">Hindi Dubbed</button>
+            <button class="filter-btn">Action</button>
+            <button class="filter-btn">Trending</button>
+        </section>
+
+        <!-- Anime Section Header -->
+        <div class="section-title">
+            <h2><i class="fa-solid fa-clapperboard"></i> Latest Releases</h2>
+            <a href="#" class="view-all">View All <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+
+        <!-- Anime Cards Grid (script.js se dynamic data bhi yahan load ho sakega) -->
+        <div class="anime-grid" id="animeGrid">
+            
+            <!-- Static Example Card 1 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://images.justwatch.com/poster/310439690/s384/season-1.jpg" alt="Solo Leveling">
+                    <span class="tag-badge sub-dub">SUB / DUB</span>
+                    <span class="ep-badge">EP 12</span>
+                    <div class="overlay">
+                        <i class="fa-solid fa-play play-icon"></i>
+                    </div>
+                </div>
+                <div class="card-details">
+                    <h3>Solo Leveling</h3>
+                    <p class="meta">Action • Fantasy</p>
+                </div>
+            </div>
+
+            <!-- Static Example Card 2 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://m.media-amazon.com/images/M/MVBmMzM1ZmE2NGQtOTlhMi00MThlLTlhYTctYmI3ODhhZGU1Y2JhXkEyXkFqcGc@._V1_.jpg" alt="Demon Slayer">
+                    <span class="tag-badge hindi">HINDI DUB</span>
+                    <span class="ep-badge">EP 8</span>
+                    <div class="overlay">
+                        <i class="fa-solid fa-play play-icon"></i>
+                    </div>
+                </div>
+                <div class="card-details">
+                    <h3>Demon Slayer: Hashira Training Arc</h3>
+                    <p class="meta">Action • Supernatural</p>
+                </div>
+            </div>
+
+            <!-- Static Example Card 3 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://m.media-amazon.com/images/M/MVBmYjRjNDhkYmItNWJhMy00M2I5LWIxNDAtM2I4YzA2OTA4N2U1XkEyXkFqcGc@._V1_.jpg" alt="Jujutsu Kaisen">
+                    <span class="tag-badge sub-dub">SUB / DUB</span>
+                    <span class="ep-badge">EP 24</span>
+                    <div class="overlay">
+                        <i class="fa-solid fa-play play-icon"></i>
+                    </div>
+                </div>
+                <div class="card-details">
+                    <h3>Jujutsu Kaisen Season 2</h3>
+                    <p class="meta">Action • Dark Fantasy</p>
+                </div>
+            </div>
+
+            <!-- Static Example Card 4 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://m.media-amazon.com/images/M/MVBN2EyMTM4MDctM2I5My00MTc3LThjM2QtMWI5NTBkOWM3MGJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Naruto Shippuden">
+                    <span class="tag-badge hindi">HINDI DUB</span>
+                    <span class="ep-badge">EP 500</span>
+                    <div class="overlay">
+                        <i class="fa-solid fa-play play-icon"></i>
+                    </div>
+                </div>
+                <div class="card-details">
+                    <h3>Naruto Shippuden</h3>
+                    <p class="meta">Adventure • Martial Arts</p>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 AnimeVault. Built with HTML, CSS & JS.</p>
+        <p class="disclaimer">Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties.</p>
+    </footer>
+
+    <!-- Custom Script File Link -->
+    <script src="script.js"></script>
+</body>
+</html>
