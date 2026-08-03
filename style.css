@@ -1,21 +1,7 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #000;
-    color: white;
-}
-
-.hero {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/hero.jpg');
+    background-image: url('images/bradley-pelish-NPivaRqGFWw-unsplash.jpg');
     background-size: cover;
     background-position: center;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 40px;
-}
-.hero h1 {
-    font-size: 50px;
-    color: #ff4757;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
