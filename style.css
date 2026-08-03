@@ -1,16 +1,21 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { background-color: #0f1015; color: #fff; font-family: 'Segoe UI', sans-serif; }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: white;
+}
 
-.navbar { display: flex; justify-content: space-between; align-items: center; padding: 15px 5%; background: #181920; }
-.logo { font-size: 24px; font-weight: bold; }
-.logo span { color: #ff2a6d; }
-.navbar input { padding: 8px 15px; border-radius: 20px; border: none; background: #252631; color: #fff; }
-
-.container { padding: 20px 5%; }
-.anime-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; margin-top: 20px; }
-
-.card { background: #181920; border-radius: 8px; overflow: hidden; transition: transform 0.2s; cursor: pointer; }
-.card:hover { transform: translateY(-5px); }
-.card img { width: 100%; height: 250px; object-fit: cover; }
-.card h3 { font-size: 14px; padding: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.sub-dub { font-size: 11px; background: #ff2a6d; padding: 2px 6px; border-radius: 4px; margin: 0 10px 10px; display: inline-block; }
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+.hero h1 {
+    font-size: 50px;
+    color: #ff4757;
+}
