@@ -1,7 +1,15 @@
+/* Complete Full Black Background */
 body {
-    background-image: url('images/bradley-pelish-NPivaRqGFWw-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #000000 !important;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Optional: Website par baki containers ko bhi pure black matching rakhne ke liye */
+.navbar, 
+.hero-banner, 
+.card, 
+.footer {
+    background-color: #000000;
 }
