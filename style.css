@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #000;
-    color: white;
-}
-
-.hero {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/hero.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 40px;
-}
-.hero h1 {
-    font-size: 50px;
-    color: #ff4757;
-}
-=======
-/* Complete Full Black Background */
 body {
     background-color: #000000 !important;
     color: #ffffff;
@@ -36,4 +12,3 @@ body {
 .footer {
     background-color: #000000;
 }
->>>>>>> 453632c1934fedf036f9733af2445358629f9165
