@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -19,3 +20,20 @@ body {
     font-size: 50px;
     color: #ff4757;
 }
+=======
+/* Complete Full Black Background */
+body {
+    background-color: #000000 !important;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Optional: Website par baki containers ko bhi pure black matching rakhne ke liye */
+.navbar, 
+.hero-banner, 
+.card, 
+.footer {
+    background-color: #000000;
+}
+>>>>>>> 453632c1934fedf036f9733af2445358629f9165
